@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.edu.ufabc.balancadeimpedancia.ResultadoActivity"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="Fulaninho"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="80dp" />
+
+        <TextView
+            android:text="Sua gordura corporal é"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:textSize="18dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:text="23%"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:text="A massa magra é"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:textSize="18dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:text="15%"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:text="E a quantidade de água é"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:textSize="18dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:text="30%"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:text="Daqui um ano você desejará ter \ncomeçado hoje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:textSize="18dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="italic"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</ScrollView>
