@@ -1,10 +1,12 @@
 package br.edu.ufabc.balancadeimpedancia.modelo;
 
+import java.io.Serializable;
+
 /**
  * Created by newtonangelini on 27/11/17.
  */
 
-public class Medicao {
+public class Medicao implements Serializable {
 
     private Pessoa pessoa;
 
@@ -46,4 +48,7 @@ public class Medicao {
         return getQuantidadeDeAgua() / pessoa.getPeso() * 100;
     }
 
+    public Pessoa getPessoa() {
+        return pessoa;
+    }
 }

@@ -1,10 +1,12 @@
 package br.edu.ufabc.balancadeimpedancia.modelo;
 
+import java.io.Serializable;
+
 /**
  * Created by newtonangelini on 27/11/17.
  */
 
-public class Pessoa {
+public class Pessoa implements Serializable {
 
     public enum Sexo {
         MASCULINO, FEMININO;
